@@ -56,7 +56,8 @@ function NavbarAdmin() {
                 </Link>
               </div>
             </li>
-            <li className='ml-2 flex items-center'>
+            <li className='ml-2 flex items-center cursor-pointer hover:text-yellow-400'
+              onClick={()=>navigate('/profile')}>
                 <IoPerson size={30}/> {user.username}
             </li>
         </ul>
