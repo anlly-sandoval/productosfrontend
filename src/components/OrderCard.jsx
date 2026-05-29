@@ -107,7 +107,7 @@ function OrderCard({order}) {
                 onClose={()=> setIsModalOpen(false)}
                 onConfirm={()=> cancellOrder(order._id)}
                 title={"Cancelar pedido"}
-                text={"¿Estas seguro que deseas cacelar este pedido? Esta accion no se puede deshacer"}
+                text={"¿Estas seguro que deseas cancelar este pedido? Esta accion no se puede deshacer"}
                 btnAccept={"Confirmar"}
                 btnCancel={"Cancelar"}
             />
